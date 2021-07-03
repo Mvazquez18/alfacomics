@@ -42,7 +42,26 @@
             </div>
         </div>
     </header>
+          <!--Empieza el formulario-->
 
+          <form id="formulario" action="enviar.php" method="POST" enctype="multipart/form-data">
+
+            <h1 id="formulario">¡Escribinos!</h1>
+               <label for="Nombreyapellido">Nombre y Apellido</label>
+   <br>
+               <input id="inputRecomendados" type="text" name="Nombreyapellido" maxlength="100">
+   <br>
+   <br>
+               <label for="E-Mail">E-Mail</label>
+   <br>
+                <input id="inputRecomendados"  type="text" name="E-Mail" maxlength="100">
+   <br>
+   <br>
+               <textarea>Escribe aquí tus sugerencias</textarea>
+   <br>
+               <input type="submit" name="submit" value="Enviar">
+               <input type="reset" name="reset" value="Limpiar">
+   </form>
     <footer>
         <div class="footer"> 
             <div>

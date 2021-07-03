@@ -397,7 +397,7 @@ span {
     color:white;
 
       
-    }
+}
 
 
 /*Footer*/
@@ -417,9 +417,7 @@ span {
     padding-bottom: 170px;
     font-family: 'Roboto', sans-serif;
         
-        
-    }
-
+}
 
   .mediosdepago {
     padding-top: 20px;
@@ -472,7 +470,112 @@ span {
 }
 
 
+/*Recomenados*/
 
+#recomendados {
+    
+    padding-left: 170px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#recomendados h1 {
+    color: black;
+    font-family: "AlterEgoBBW00-Regular";
+    font-size: 30px;
+    text-decoration: underline;
+    padding-bottom: 20px;
+
+}
+.container {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    padding-right: 600px;
+    padding-left: 0px;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#imagen__recomendados {
+    padding-right: 20px;
+
+}
+
+#titulosRecomendados{
+    width: 1000px;
+    background-color: #F5B3B7;
+    color: #000000;
+    font-size: 20px;
+    border: none;    
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+ 
+
+} 
+
+
+#titulosRecomendados2 {
+    width: 1000px;
+    background-color:#E3D1AB;
+    color: #000000;
+    font-size: 20px;
+    border: none;    
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+
+} 
+
+#titulosRecomendados3 {
+    width: 1000px;
+    background-color:#70A2BE;
+    color: white;
+    font-size: 20px;
+    border: none;    
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   
+
+} 
+
+
+#recomendados p {
+     text-align: left;
+     width: 890px;
+     font-size: 17px;
+     padding-top: 40px;
+    
+
+} 
+
+.container h7 {
+    padding-top: 50px;
+    padding-left: 20px;
+    width: 810px
+}
+
+
+
+/*Contacto*/
+#inputRecomendados {
+    border: 1px solid black;
+    background-color: none;
+    width: 400px;
+
+}
 
 /*Media Queries*/
 
