@@ -570,12 +570,27 @@ span {
 
 
 /*Contacto*/
-#inputRecomendados {
-    border: 1px solid black;
-    background-color: none;
-    width: 400px;
+form {
+    padding-top: 25px;
+    padding-left: 100px;
+    padding-bottom: 100px;
 
 }
+
+.contactoTitulo {
+    color: white;
+    background-color: #000000;
+    padding: 20px;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 200px;
+    margin-left: 100px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
 
 /*Media Queries*/
 
